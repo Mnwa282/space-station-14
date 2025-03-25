@@ -24,7 +24,7 @@
   - type: SolutionContainerManager
     solutions:
       beaker:
-        maxVol: 50
+        maxVol: 60 #Radium#
   - type: MixableSolution
     solution: beaker
   - type: FitsInDispenser
@@ -185,10 +185,10 @@
   - type: SolutionContainerManager
     solutions:
       beaker:
-        maxVol: 50
+        maxVol: 60
         reagents:
         - ReagentId: Cryoxadone
-          Quantity: 50
+          Quantity: 60
 
 - type: entity
   name: large beaker
@@ -211,7 +211,7 @@
   - type: SolutionContainerManager
     solutions:
       beaker:
-        maxVol: 100
+        maxVol: 120 #Radium#
   - type: Appearance
   - type: SolutionContainerVisuals
     maxFillLevels: 6
@@ -590,7 +590,7 @@
     areaInsertRadius: 1
     storageInsertSound: /Audio/Effects/pill_insert.ogg
     storageRemoveSound: /Audio/Effects/pill_remove.ogg
-    whitelist: 
+    whitelist:
       tags:
       - Pill
   - type: Dumpable
