@@ -1,6 +1,6 @@
 player-panel-title = информация о { $player }
 player-panel-username = Имя пользователя: { $player }
-player-panel-whitelisted = В вайтлисте?:
+player-panel-whitelisted = Вайтлист?:
 player-panel-bans = Всего банов: { $totalBans }
 player-panel-rolebans = Всего банов ролей: { $totalRoleBans }
 player-panel-notes = Всего заметок: { $totalNotes }
